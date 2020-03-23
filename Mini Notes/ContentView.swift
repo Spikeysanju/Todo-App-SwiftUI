@@ -77,7 +77,7 @@ struct ContentView: View {
                 }
             }
         
-            .navigationBarTitle(Text("Mini Notes"))
+            .navigationBarTitle(Text("Todo Notes"))
             .navigationBarItems(trailing: EditButton())
         }
 
