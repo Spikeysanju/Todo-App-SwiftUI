@@ -14,6 +14,8 @@
 		E35222782428B1D100340906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35222772428B1D100340906 /* Assets.xcassets */; };
 		E352227B2428B1D100340906 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E352227A2428B1D100340906 /* Preview Assets.xcassets */; };
 		E352227E2428B1D100340906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E352227C2428B1D100340906 /* LaunchScreen.storyboard */; };
+		E35222862428C1ED00340906 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35222852428C1ED00340906 /* Todo.swift */; };
+		E352228A2428CB8300340906 /* TodoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35222892428CB8300340906 /* TodoUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E352227A2428B1D100340906 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E352227D2428B1D100340906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E352227F2428B1D100340906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35222852428C1ED00340906 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		E35222892428CB8300340906 /* TodoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				E352226E2428B1CC00340906 /* AppDelegate.swift */,
 				E35222702428B1CC00340906 /* SceneDelegate.swift */,
 				E35222752428B1CC00340906 /* ContentView.swift */,
+				E35222852428C1ED00340906 /* Todo.swift */,
 				E35222772428B1D100340906 /* Assets.xcassets */,
 				E352227C2428B1D100340906 /* LaunchScreen.storyboard */,
 				E352227F2428B1D100340906 /* Info.plist */,
 				E35222722428B1CC00340906 /* Mini_Notes.xcdatamodeld */,
 				E35222792428B1D100340906 /* Preview Content */,
+				E35222892428CB8300340906 /* TodoUIView.swift */,
 			);
 			path = "Mini Notes";
 			sourceTree = "<group>";
@@ -149,10 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E352228A2428CB8300340906 /* TodoUIView.swift in Sources */,
 				E352226F2428B1CC00340906 /* AppDelegate.swift in Sources */,
 				E35222742428B1CC00340906 /* Mini_Notes.xcdatamodeld in Sources */,
 				E35222762428B1CC00340906 /* ContentView.swift in Sources */,
 				E35222712428B1CC00340906 /* SceneDelegate.swift in Sources */,
+				E35222862428C1ED00340906 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +298,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mini Notes/Preview Content\"";
+				DEVELOPMENT_TEAM = ZK69Z3WU35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Mini Notes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.whizzappstudio.in.Mini-Notes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whizzappstudio.in;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,13 +318,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mini Notes/Preview Content\"";
+				DEVELOPMENT_TEAM = ZK69Z3WU35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Mini Notes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.whizzappstudio.in.Mini-Notes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whizzappstudio.in;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
